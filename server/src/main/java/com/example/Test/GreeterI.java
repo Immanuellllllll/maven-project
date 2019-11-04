@@ -1,5 +1,10 @@
 package com.example.Test;
-//pisoglort
+
+/**
+ * klasseeeeee
+ */
+
+/** (@inheritDoc) */
 public interface GreeterI {
     String greet(String someonee);
 }
