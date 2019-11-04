@@ -3,7 +3,7 @@ package com.example.Test;
 /**
  * klasseeeeee
  */
-public class Greeter implements GreeterI {
+public class Greeter {
 
   /**
    * This is a constructor.
@@ -12,7 +12,6 @@ public class Greeter implements GreeterI {
 
   }
   /** (@inheritDoc) */
-  @Override
   public String greet(String someonee) {
     return String.format("Hello, %s!", someonee);
   }
